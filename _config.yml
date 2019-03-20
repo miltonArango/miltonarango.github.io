@@ -18,26 +18,14 @@ defaults:
 
 projects:
   sort_by: pushed
-  # sort_by options:
-  #   - pushed
-  #   - stars
-  limit: 9
+  limit: 6
   exclude:
     forks: true
-    projects:
-    # - repo-name
 
-# social_media:
-  # behance: your_username
-  # dribbble: your_username
-  # facebook: your_username
-  # linkedin: your_username
-  # medium: @your_username
-  # stackoverflow: your_user_id
-  # telegram: your_username
-  # twitter: your_username
-  # youtube: your_username
-  # vk: your_username
+social_media:
+  linkedin: milton-arango-giraldo
+  stackoverflow: 5113171
+  twitter: MAG1357
 
 topics:
   - name: Python
@@ -51,14 +39,3 @@ topics:
   - name: Tensorflow
     web_url: https://github.com/topics/tensorflow
     image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/tensorflow/tensorflow.png
-
-projects:
-  sort_by: pushed
-  limit: 6
-  exclude:
-    forks: true
-
-social_media:
-  linkedin: milton-arango-giraldo
-  stackoverflow: 5113171
-  twitter: MAG1357
